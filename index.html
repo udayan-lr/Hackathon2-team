@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        /* Additional CSS for the skill tester name */
+        .skill-tester-name {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 24px;
+            color: white;
+        }
+    </style>
+    <title>Registration and Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body style="background-image: url('bck_3.jpg'); background-size: cover;">
+    <div class="container">
+        <h1 style="color: #FFA500;-webkit-text-stroke: yellow 3px; font-size: 100px;">Skill Test</h1>
+        <div class="register-container" id="registerContainer">
+            <h1 style="color:#FFA500;">Login</h1>
+            <form id="registerForm">
+                <div class="input-group">
+                    <label for="registerUsername" style="color:yellow;">Username</label>
+                    <input type="text" id="registerUsername" name="username" required>
+                </div>
+                <div class="input-group">
+                    <label for="registerPassword" style="color:yellow;">Password</label>
+                    <input type="password" id="registerPassword" name="password" required>
+                </div>
+                <button type="submit">Login</button>
+                <p id="registerMessage"></p>
+            </form>
+        </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>
